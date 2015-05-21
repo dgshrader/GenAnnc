@@ -116,12 +116,14 @@
    addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
    corref={aff1},                       % id of corresponding address, if any
    noteref={n1},                        % id's of article notes, if any
-   email={jane.e.doe@cambridge.co.uk}   % email address
-]{\inits{JE}\fnm{Jane E} \snm{Doe}}
+   email={sstevens2@wisc.edu}   % email address
+]{\inits{SLR}\fnm{Sarah LR} \snm{Stevens}}
 \author[
-   addressref={aff1,aff2},
-   email={john.RS.Smith@cambridge.co.uk}
-]{\inits{JRS}\fnm{John RS} \snm{Smith}}
+   addressref={aff1},
+   email={jjhamilton2@wisc.edu}
+]{\inits{JH}\fnm{Joshua J} \snm{Hamilton}}
+%ADD TRINA ET AL!!!!!
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -133,18 +135,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \address[id=aff1]{%                           % unique id
-  \orgname{Department of Zoology, Cambridge}, % university, etc
-  \street{Waterloo Road},                     %
+  \orgname{Department of Bacteriology, University of Wisconsin-Madison}, % university, etc
+  %\street{Waterloo Road},                     %
   %\postcode{}                                % post or zip code
-  \city{London},                              % city
-  \cny{UK}                                    % country
-}
-\address[id=aff2]{%
-  \orgname{Marine Ecology Department, Institute of Marine Sciences Kiel},
-  \street{D\"{u}sternbrooker Weg 20},
-  \postcode{24105}
-  \city{Kiel},
-  \cny{Germany}
+  \city{Madison},                              % city
+  \cny{USA}                                    % country
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -175,7 +170,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{abstractbox}
-
+  Authors should provide a concise, non-redundant and meaningful abstract that describes the nature of the article. It should summarize the rationale, the objectives and the findings of the report and provide key details (e.g.,  relevant INSDC identifiers, culture collection identifiers, other project metadata that is accessible in standardized form).
 \begin{abstract} % abstract
 \parttitle{First part title} %if any
 Text for this section.
@@ -191,6 +186,8 @@ Text for this section.
 %% Put each keyword in separate \kwd{}.     %%
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Authors should include five to seven descriptive keywords. These may include the article type, the name(s) of the organism(s) sequenced, the next higher taxonomic rank, the sampling site and other significant details about the nature of the study. (Format Keywords)
 
 \begin{keyword}
 \kwd{sample}
@@ -235,154 +232,98 @@ Text for this section.
 % <put your article body there>
 
 %%%%%%%%%%%%%%%%
-%% Background %%
+%% Introduction %%
 %%
-\section*{Content}
-Text and results for this section, as per the individual journal's instructions for authors. %\cite{koon,oreg,khar,zvai,xjon,schn,pond,smith,marg,hunn,advi,koha,mouse}
+\section*{Introduction}
+Authors are expected to provide readers with brief, high-level description of the source organism and the rationale for its selection for sequencing. It should be written in such a manner as to capture a reader’s attention. It should also indicate whether or not the organism is part of a larger genomic survey project.
 
-\section*{Section title}
-Text for this section \ldots
-\subsection*{Sub-heading for section}
-Text for this sub-heading \ldots
-\subsubsection*{Sub-sub heading for section}
-Text for this sub-sub-heading \ldots
-\paragraph*{Sub-sub-sub heading for section}
-Text for this sub-sub-sub-heading \ldots
-In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In
-addition, we examine a common modeling assumption and note the
-importance of considering the tails of the extinction time $T_x$ in
-studies of escape dynamics.
-We will first consider the expected resistant population at $vT_x$ for
-some $v>0$, (and temporarily assume $\alpha=0$)
-%
-\[
- E \bigl[Z_1(vT_x) \bigr]= E
-\biggl[\mu T_x\int_0^{v\wedge
-1}Z_0(uT_x)
-\exp \bigl(\lambda_1T_x(v-u) \bigr)\,du \biggr].
-\]
-%
-If we assume that sensitive cells follow a deterministic decay
-$Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as
-$T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically
-estimate the expected value as
-%
-\begin{eqnarray}\label{eqexpmuts}
-E\bigl[Z_1(vT_x)\bigr] &=& \frac{\mu}{r}\log x
-\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du
-\nonumber\\
-&=& \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log x\int_0^{v\wedge
-1}x^{-u(1+{\lambda_1}/{r})}\,du
-\nonumber\\
-&=& \frac{\mu}{\lambda_1-\lambda_0}x^{1+{\lambda_1}/{r}v} \biggl(1-\exp \biggl[-(v\wedge1) \biggl(1+
-\frac{\lambda_1}{r}\biggr)\log x \biggr] \biggr).
-\end{eqnarray}
-%
-Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,khar,zvai,xjon,marg}).
+%%%%%%%%%%%%%%%%
+%% Abbreviations (optional) %%
+%%
+\section*{Abbreviations}
+Authors should include any non-standard abbreviations that are used throughout the article. Do not include well-known abbreviations (e.g., NCBI, EMBL, DNA, RNA) and do not use non-standard abbreviations for organism names. Species and subspecies names must be fully spelled out on first use as binomials (genus name and species epithet) or trinomials (genus name, species epithet subsp. subspecific epithet). Following first usage, the genus name may be abbreviated by using the first letter of the genus name, followed by a period and the epithets.
 
 
+%%%%%%%%%%%%%%%%
+%% Organism Information %%
+%%
+\section*{Organism Information}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                          %%
-%% Backmatter begins here                   %%
-%%                                          %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{backmatter}
+\subsection*{Classification and features}
+This should include succinct but detailed description of major phenotypic features (macro- and micromorphology, physiological characteristics), natural habitat, distribution, current classification and phylogenetic placement of the strain/specimen selected for sequencing. Authors should provide readers with additional background as to how the organism was isolated from nature (if a microbe), its association with other community members, any special properties that are noteworthy (e.g., pathogenic, symbiotic, industrial use, taxonomic type strain, model organism, etc.). In a separate subsection, of this section, authors should provide chemotaxonomic information (e.g. whole cell fatty acid composition, respiratory quinones, cell-wall composition, other unique or diagnostic cellular components).
 
-\section*{Competing interests}
-  The authors declare that they have no competing interests.
+This section should also include two figures: a phylogenetic tree indicating current placement and a photomicrograph or electron photomicrograph of the source organism. This section must also include a reference to Table 1, which provides a standardized summary of key features of the source organism. The layout of Table 1 is fixed and authors must not vary the appearance of information in the table. Rather, they must supply this information so that readers may view the descriptive information in a consistent fashion.
 
-\section*{Author's contributions}
-    Text for this section \ldots
+\subsubsection*{Chemotaxonomic data}
+Optional
+See the above description (under Classification and features)
 
+\subsubsection*{Symbiotaxonomy}
+Optional
+See the above description (under Classification and features)
+
+
+%%%%%%%%%%%%%%%%
+%% Genome sequencing information %%
+%%
+\section*{Genome sequencing information}
+
+\subsection*{Genome project history}
+This section of the manuscript should provide a detailed summary of the sequencing, assembly and annotation methodology.  The section should include an introductory paragraph that provides the readers with specific information about the sequencing project, when the project began and was completed, whether the sequence is complete or remains as a draft genome, and the quality of the draft, which public databases contain the project data and other relevant information. These data should be summarized in Table 2.
+
+\subsection*{Growth conditions and genomic DNA preparation}
+In the case of cultivated organisms, please provide the source of the organism (e.g., culture collection and accession number) and the conditions that were used to grow the strains(s) for DNA extraction (media, temperature, aeration, volume of culture, length of incubation). Also provide the method used to harvest and lyse the cells, and to extract and purify the DNA and to assess its purity.
+
+\subsection*{Genome sequencing and assembly}
+Provide a succinct and detailed description of the methods used to sequence and assemble the genome(s). Identify the sequencing center where the work was performed, the sequencing technology(ies) used, library construction, number of reads and read length. Cite any relevant references regarding methods used. Also, provide a succinct and detailed description of the assembly, including the software used for preliminary assembly, finishing and error checking and correction of mis-assemblies.  Provide a brief description of the size of the final assembly, the number of contigs, and coverage.
+
+\subsection*{Genome annotation}
+Provide a brief and succinct description of the methods used to identify and annotate genes, and any software used in the annotation pipeline.
+
+%%%%%%%%%%%%%%%%
+%% Genome Properties  %%
+%%
+\section*{Genome Properties}
+Provide a summary description of the size of the genome(s) (in base pairs), the number of chromosomes and plasmids. Include the number of predicted genes (RNA genes, protein coding genes, pseudogenes) by number and percent of total. This section should be linked to a chromosome map, map(s) of any plasmids and two or three tables providing a more detailed summary of the genome properties.
+
+%%%%%%%%%%%%%%%%
+%% Insights from the genome sequence (optional) %%
+%%
+\section*{Insights from the genome sequence}
+In many cases, authors may wish to provide a brief, yet more detailed description of major findings arising from the genome sequence. This can be a comparison of major differences found between the genome sequence that is the subject of the study and others (e.g., major differences is specific metabolic pathways, significant differences in gene content, etc.). This section is intended to permit the authors to make preliminary observations rather than to serve as detailed comparative study. In a short genome report, this section should be limited to two to three paragraphs. Authors wanting to provide greater detail and to incorporate additional genomes into their study, or to incorporate additional tables and figures are invited to submit their articles as extended genome reports.
+
+\subsection*{Extended insights}
+Authors are encouraged to provide more detailed descriptions about insights gained from the genome sequence. This may include comparisons of the genome to that of closely relate species, detailed discussions about specific metabolic pathways that are noteworthy or unique, or other features that may be of interest to the readers. Authors may include additional tables and figures in this section (see below).
+
+%%%%%%%%%%%%%%%%
+%% Conclusions %%
+%%
+\section*{Conclusions}
+
+%%%%%%%%%%%%%%%%
+%% Taxonomic and nomenclatural proposals (optional)  %%
+%%
+\section*{Taxonomic and nomenclatural proposals}
+
+Authors are free to make taxonomic proposals and revisions of existing taxa, providing that the proposals are made in accordance with the rules of the relevant code of nomenclature. Taxonomic proposals must include the following sections appearing after the Conclusions section: A formal description for each taxon - Each taxonomic proposal must have its own subsection heading, and must appear in the proper order. Proposals for new genera must precede proposals for new species or subspecies. New species must precede new subspecies. A proposed name and etymology – For each new taxon proposed authors must propose a new name, in accordance to the appropriate rules of nomenclature. The proposed name should be followed by the etymology of the name, in grammatically correct Latin. Authors are responsible for ensuring that proposed names meet these requirements.
+A protologue – for each new taxon and name that is proposed, authors must provide a description (also referred to as a diagnosis in botany) that provides readers with a summarized statement of differential features that can be used to distinguish the proposed taxon from other, closely related taxa. The protologue should include information about the morphology, physiology, habitat and genetics, along with any marker genes or features that can be used for identification purposes. The protologue must conclude with a statement that positively establishes the type strain (prokaryotes) or specimen (botany and zoology). If a new species or subspecies of bacteria or archaea is proposed, authors must provide the accession numbers from at least two internationally recognized culture collections (in different countries) from which viable samples of the type strain are available without restriction. Proposals that fail to provide this information cannot be considered for valid publication. If one or more new genera are proposed, the genus name(s) and description(s) must precede those of newly proposed member species. Genus descriptions must indicate the type species of the genus and differential/diagnostic features. In many cases, these may be the same as that for member species. Proposals for novel higher taxa (family and above) should appear after the species or subspecies proposals. Emendations of existing taxa should be made in separate sections, indicating the changes in membership and phenotypic and genotypic characteristics on which the taxa were originally formed. Assertions of synonymy should be presented in a separate section, with a full description of which taxa are being combined and an assertion of which name has priority. Taxonomic proposals of eukaryotic and virus taxa will follow the same general outline described above, but the identification and deposition of type material differs.
+
+%%%%%%%%%%%%%%%%
+%% Authors' contributions  %%
+%% Might not be the right heading level
+\section*{Authors' contributions}
+In order to give appropriate credit to each author of a paper, the individual contributions of authors to the manuscript should be specified in this section.
+
+According to ICMJE guidelines(), An 'author' is generally considered to be someone who has made substantive intellectual contributions to a published study. To qualify as an author one should 1) have made substantial contributions to conception and design, or acquisition of data, or analysis and interpretation of data; 2) have been involved in drafting the manuscript or revising it critically for important intellectual content; 3) have given final approval of the version to be published; and 4) agree to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. Each author should have participated sufficiently in the work to take public responsibility for appropriate portions of the content. Acquisition of funding, collection of data, or general supervision of the research group, alone, does not justify authorship.
+
+We suggest the following kind of format (please use initials to refer to each author's contribution): AB carried out the molecular genetic studies, participated in the sequence alignment and drafted the manuscript. JY carried out the immunoassays. MT participated in the sequence alignment. ES participated in the design of the study and performed the statistical analysis. FG conceived of the study, and participated in its design and coordination and helped to draft the manuscript. All authors read and approved the final manuscript.
+
+%%%%%%%%%%%%%%%%
+%% Acknowledgements   %%
+%%
 \section*{Acknowledgements}
-  Text for this section \ldots
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                  The Bibliography                       %%
-%%                                                         %%
-%%  Bmc_mathpys.bst  will be used to                       %%
-%%  create a .BBL file for submission.                     %%
-%%  After submission of the .TEX file,                     %%
-%%  you will be prompted to submit your .BBL file.         %%
-%%                                                         %%
-%%                                                         %%
-%%  Note that the displayed Bibliography will not          %%
-%%  necessarily be rendered by Latex exactly as specified  %%
-%%  in the online Instructions for Authors.                %%
-%%                                                         %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% if your bibliography is in bibtex format, use those commands:
-\bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
-\bibliography{bmc_article}      % Bibliography file (usually '*.bib' )
-
-% or include bibliography directly:
-% \begin{thebibliography}
-% \bibitem{b1}
-% \end{thebibliography}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                               %%
-%% Figures                       %%
-%%                               %%
-%% NB: this is for captions and  %%
-%% Titles. All graphics must be  %%
-%% submitted separately and NOT  %%
-%% included in the Tex document  %%
-%%                               %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%
-%% Do not use \listoffigures as most will included as separate files
-
-\section*{Figures}
-  \begin{figure}[h!]
-  \caption{\csentence{Sample figure title.}
-      A short description of the figure content
-      should go here.}
-      \end{figure}
-
-\begin{figure}[h!]
-  \caption{\csentence{Sample figure title.}
-      Figure legend text.}
-      \end{figure}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                               %%
-%% Tables                        %%
-%%                               %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%% Use of \listoftables is discouraged.
-%%
-\section*{Tables}
-\begin{table}[h!]
-\caption{Sample table title. This is where the description of the table should go.}
-      \begin{tabular}{cccc}
-        \hline
-           & B1  &B2   & B3\\ \hline
-        A1 & 0.1 & 0.2 & 0.3\\
-        A2 & ... & ..  & .\\
-        A3 & ..  & .   & .\\ \hline
-      \end{tabular}
-\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                               %%
-%% Additional Files              %%
-%%                               %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section*{Additional Files}
-  \subsection*{Additional file 1 --- Sample additional file title}
-    Additional file descriptions text (including details of how to
-    view the file, if it is in a non-standard format or the file extension).  This might
-    refer to a multi-page table or a figure.
-
-  \subsection*{Additional file 2 --- Sample additional file title}
-    Additional file descriptions text.
+Authors are encouraged to include an acknowledgement section recognizing the contributions to their work made by non-authors (skilled technicians, contributors of materials or those providing specialized advice or commentary on various aspects of their work. Authors should also acknowledge the source of funding for their work provided by various agencies, foundations or benefactors as well as the relevant contract or agreement numbers.
 
 
-\end{backmatter}
 \end{document}
