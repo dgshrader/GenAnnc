@@ -6,6 +6,14 @@ We're writing genome announcements for the following groups:
 - betII (Pnec)
 - betIIV (LD28)
 
+## Directories
+ANI - contains the ANI analysis output files all groups
+bet##_manu - contains the manuscript for each group
+bmc_ template - contains the original bmc tex files, and one customized for SIGS
+genomes - contains all the fna files for  genomes being used (both those we are announcing and the reference genomes)
+phylogeny - contains the files for the phylogenetic analysis of these groups
+tables - contains the original metadata table downloaded from IMG and the SIGS metadata tables
+
 ## Submission Journal Info
 Targeting Standards in Genomic Science for publication,
 [SIGS](http://www.standardsingenomics.com/)
