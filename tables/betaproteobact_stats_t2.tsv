@@ -1,23 +1,1 @@
-taxon_oid	Nickname	Finishing quality	Libraries used	Sequencing platforms	Fold coverage	Assemblers	Gene calling method	Locus Tag	Genbank ID	Genbank Date of Release	GOLD ID	BIOPROJECT	Source Material Identifier	Project Relevance
-2582580712	TH00953			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2582580623	TE02167			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053362			
-2593339182	TH02902	No		DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2582580561	ME03080			DOE Joint Genome Institute (JGI)			Illumina GAii		0		Gp0053482			
-2582580598	ME00068			DOE Joint Genome Institute (JGI)			Illumina GAii		0		Gp0053482			
-2619618804	AAA028-K02	Yes		DOE Joint Genome Institute (JGI)			"Illumina HiSeq 2000, Illumina HiSeq 2500"		0	6/30/2015	Gp0025293	PRJNA177880		
-2593339176	TH00545	No		DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2582580649	TE00913			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053362			
-2582580621	TE02094			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053362			
-2593339177	TH00941	No		DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2582580633	TE03838			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053362			
-2582580620	TE02093			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053362			
-2582580642	TE00567			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053362			
-2582580711	TH00944			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2619618801	AAA027-C02	Yes		DOE Joint Genome Institute (JGI)			"Illumina HiSeq 2000, Illumina HiSeq 2500"		0	6/30/2015	Gp0025335	PRJNA179457		
-2619618802	AAA027-I06	Yes		DOE Joint Genome Institute (JGI)			"Illumina HiSeq 2000, Illumina HiSeq 2500"		0	6/30/2015	Gp0019155	PRJNA177878		
-2582580637	TE04548			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053362			
-2582580658	TH02159			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2582580653	TH01542			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2582580659	TH02160			DOE Joint Genome Institute (JGI)			Illumina HiSeq 2000		0		Gp0053369			
-2582580515	ME10739			DOE Joint Genome Institute (JGI)			Illumina GAii		0		Gp0053482			
-2582580538	ME16806			DOE Joint Genome Institute (JGI)			Illumina GAii		0		Gp0053482			
+taxon_oid	Nickname	Finishing quality	Libraries used	Sequencing platforms	Fold coverage	Assemblers	Gene calling method	Locus Tag	Genbank ID	Genbank Date of Release	GOLD ID	BIOPROJECT	Source Material Identifier	Project Relevance2582580712	TH00953			Illumina HiSeq 2000					0		Gp0053369			2582580623	TE02167			Illumina HiSeq 2000					0		Gp0053362			2593339182	TH02902			Illumina HiSeq 2000					0		Gp0053369			2582580561	ME03080			Illumina GAii					0		Gp0053482			2582580598	ME00068			Illumina GAii					0		Gp0053482			2619618804	AAA028-K02			"Illumina HiSeq 2000, Illumina HiSeq 2500"					0	6/30/15	Gp0025293	PRJNA177880		2593339176	TH00545			Illumina HiSeq 2000					0		Gp0053369			2582580649	TE00913			Illumina HiSeq 2000					0		Gp0053362			2582580621	TE02094			Illumina HiSeq 2000					0		Gp0053362			2593339177	TH00941			Illumina HiSeq 2000					0		Gp0053369			2582580633	TE03838			Illumina HiSeq 2000					0		Gp0053362			2582580620	TE02093			Illumina HiSeq 2000					0		Gp0053362			2582580642	TE00567			Illumina HiSeq 2000					0		Gp0053362			2582580711	TH00944			Illumina HiSeq 2000					0		Gp0053369			2619618801	AAA027-C02			"Illumina HiSeq 2000, Illumina HiSeq 2500"					0	6/30/15	Gp0025335	PRJNA179457		2619618802	AAA027-I06			"Illumina HiSeq 2000, Illumina HiSeq 2500"					0	6/30/15	Gp0019155	PRJNA177878		2582580637	TE04548			Illumina HiSeq 2000					0		Gp0053362			2582580658	TH02159			Illumina HiSeq 2000					0		Gp0053369			2582580653	TH01542			Illumina HiSeq 2000					0		Gp0053369			2582580659	TH02160			Illumina HiSeq 2000					0		Gp0053369			2582580515	ME10739			Illumina GAii					0		Gp0053482			2582580538	ME16806			Illumina GAii					0		Gp0053482			
