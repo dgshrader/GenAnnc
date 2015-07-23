@@ -5,7 +5,7 @@ taxon_oid	Nickname	Domain	Phylum	Class	Order	Family	Genus	Species	(Type) Strain
 2593339182	TH02902	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	METHYLOPHILALES	METHYLOPHILACEAE	unclassified	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
 2582580561	ME03080	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	METHYLOPHILALES	METHYLOPHILACEAE	METHYLOTENERA	METHYLOTENERA VERSATILIS										Freshwater					"Lake Mendota, Madison, WI"	4/20/2010	43.098333	-89.405278	
 2582580598	ME00068	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	METHYLOPHILALES	METHYLOPHILACEAE	unclassified	unclassified										Freshwater					"Lake Mendota, Madison, WI"	4/20/2010	43.098333	-89.405278	
-2619618804	AAA028-K02	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	beta proteobacterium SCGC AAA028-K02	Unknown	Gram-																	
+2619618804	AAA028-K02	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	beta proteobacterium SCGC AAA028-K02										Freshwater					"Lake Mendota, Madison, WI"	5/12/09	43.098333	-89.405278
 2593339176	TH00545	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	METHYLOPHILALES	METHYLOPHILACEAE	METHYLOTENERA	METHYLOTENERA VERSATILIS										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
 2582580649	TE00913	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	METHYLOPHILALES	METHYLOPHILACEAE	unclassified	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
 2582580621	TE02094	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	BURKHOLDERIALES	BURKHOLDERIACEAE	POLYNUCLEOBACTER	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
@@ -14,8 +14,8 @@ taxon_oid	Nickname	Domain	Phylum	Class	Order	Family	Genus	Species	(Type) Strain
 2582580620	TE02093	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	BURKHOLDERIALES	BURKHOLDERIACEAE	POLYNUCLEOBACTER	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
 2582580642	TE00567	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	BURKHOLDERIALES	BURKHOLDERIACEAE	POLYNUCLEOBACTER	POLYNUCLEOBACTER NECESSARIUS										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
 2582580711	TH00944	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	BURKHOLDERIALES	BURKHOLDERIACEAE	POLYNUCLEOBACTER	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
-2619618801	AAA027-C02	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	beta proteobacterium SCGC AAA027-C02	Unknown	Gram-																	
-2619618802	AAA027-I06	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	beta proteobacterium SCGC AAA027-I06	Unknown	Gram-																	
+2619618801	AAA027-C02	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	beta proteobacterium SCGC AAA027-C02										Freshwater					"Lake Mendota, Madison, WI"	5/12/09	43.098333	-89.405278		
+2619618802	AAA027-I06	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	beta proteobacterium SCGC AAA027-I06										Freshwater					"Lake Mendota, Madison, WI"	5/12/09	43.098333	-89.405278		
 2582580637	TE04548	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	BURKHOLDERIALES	COMAMONADACEAE	ALBIDIFERAX	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
 2582580658	TH02159	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	BURKHOLDERIALES	COMAMONADACEAE	ALBIDIFERAX	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
 2582580653	TH01542	Bacteria	PROTEOBACTERIA	BETAPROTEOBACTERIA	BURKHOLDERIALES	COMAMONADACEAE	ALBIDIFERAX	unclassified										Freshwater					"Trout Bog, Vilas County, Wisconsin, USA"		46.041	-89.686	
