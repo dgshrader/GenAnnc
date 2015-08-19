@@ -24,7 +24,7 @@ Each lineagae has the following number of reference genomes:
 ### Building Phylogenetic Trees
 Each tree contains three groups of genomes: reference genomes, our samples, and outgroups. Reference genomes (```refGenomes```) and samples (```SAGsandGFMs```) are found in the ```genomes``` folder, grouped by lineage. See below for discussion of outgroups.
 
-Trees are built as follows:
+Trees are built as follows:  
 1. For each genome, contigs are concatenated into a continuous alignment (```01FastaSequenceMerger.pl```)  
 2. Phylosift extracts marker genes from each genome (```02RunPyhlosift.pl```)  
 3. For each genome, marker genes are concatenated into a continuous alignment (```03CreateAlignmentFile.pl```). The concatenated alignment should be called ```lineage.aln```, where lineage is betI, betII, or betIV.  
