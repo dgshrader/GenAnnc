@@ -14,12 +14,12 @@ SIGS requests that genome announcements include a phylogenetic tree indicating t
 For each lineage, all finished genomes belonging to the indicated genus were downloaded from IMG. For the betII lineage, environmental genomes from the same family were also downloaded. Finally, the following incomplete genomes were also downloaded:
 - betI - 3 draft genomes from Lhab and Rhodo
 - betII - 2 draft genomes from Pnec
-- betIII - draft genomes from Methylotenera
+- betIII - draft genomes from Methylotenera, 2 ref genomes from Methylopumilus (LD28)
 
-Each lineagae has the following number of reference genomes:
+Each lineage has the following number of reference genomes:
 - betI - 4
 - betII - 8
-- betIV - 13
+- betIV - 15
 
 ### Building Phylogenetic Trees
 Each tree contains three groups of genomes: reference genomes, our samples, and outgroups. Reference genomes (```refGenomes```) and samples (```SAGsandGFMs```) are found in the ```genomes``` folder, grouped by lineage. See below for discussion of outgroups.
